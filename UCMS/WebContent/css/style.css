@@ -1,0 +1,158 @@
+/*!
+ * Custom CSS for UCMS
+ */
+@font-face {
+	font-family: 'Lato';
+	src: url('fonts/Lato-Regular.ttf');
+}
+
+p, span, input, button {
+	font-family: 'Lato';
+}
+
+p {
+	font-size: 15px;
+	color: #615445;
+}
+
+.margin-20 {
+	margin-bottom: 20px;
+}
+
+.margin-40 {
+	margin-bottom: 40px;
+}
+
+.margin-10 {
+	margin-bottom: 10px;
+}
+
+.padding-top-bottom {
+	padding: 30px 0;
+}
+
+/**********************************************************
+** Login page
+**********************************************************/
+.container-fluid, body {
+	background-color: transparent;
+}
+
+html {
+	background-color: #cc0000;
+	background-image: url("../img/pattern1.png");
+	background-position: left top;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.login-col {
+	background-color: #615445;
+}
+
+.login-ack {
+	background-color: #e7e7e7;
+}
+
+.form-control {
+	background-color: #e7e7e7;
+}
+
+.form-control:focus {
+	border-color: #e7e7e7;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(204, 0, 0, .6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(204, 0, 0, .6);
+}
+
+.login-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.login-button {
+	background-color: #cc0000;
+	color: #e7e7e7;
+	text-align: center;
+	float: right;
+	padding: 6px 40px;
+}
+
+.login-button:hover {
+	background-color: #e7e7e7;
+	color: #cc0000;
+}
+
+.alert-danger {
+	font-family: 'Lato';
+	border-radius: 0;
+}
+
+/**********************************************************
+** Student/Professor page
+**********************************************************/
+.container {
+	background-color: #e7e7e7;
+}
+
+.row.about {
+	background-color: #615445;
+}
+
+.row.about h2, .row.about p {
+	color: #e7e7e7;
+}
+
+span.big {
+	font-size: 26px;
+}
+
+.row.about .about-email {
+	display: inline-block;
+	background-color: #e7e7e7;
+	padding: 5px 20px;
+	color: #615445;
+}
+
+.profile-picture {
+	border-radius: 50%;
+}
+
+.ucms-button {
+	background-color: #cc0000;
+	text-align: center; color : #e7e7e7;
+	padding: 6px 40px;
+	color: #e7e7e7;
+}
+
+.ucms-button:hover {
+	background-color: #615445;
+	color: #e7e7e7;
+	text-align: center;
+	padding: 6px 40px;
+}
+
+.non-link {
+	text-align: center;
+}
+
+/**********************************************************
+** Course page
+**********************************************************/
+
+.rating-container{
+	color: #cccccc !important;
+}
+
+.star-rating{
+	margin-bottom: 5px;
+}
